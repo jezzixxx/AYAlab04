@@ -1,4 +1,4 @@
-﻿//using System.Numerics;
+//using System.Numerics;
 
 //internal class Task1
 //{
@@ -87,7 +87,7 @@
 //    public static MyMatrix operator +(MyMatrix a, MyMatrix b)
 //    {
 //        MyMatrix Sum = new MyMatrix(a.Rows, a.Cols);
-//        if (a.Cols == b.Cols && a.Rows == a.Rows)
+//        if (a.Cols == b.Cols && a.Rows == b.Rows)
 //        {
 //            for (int i = 0; i < a.Rows; i++)
 //            {
