@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
@@ -21,10 +21,11 @@ internal class Task2
                 Console.WriteLine(car.ToString());
             }
         }
-        else foreach (Car car in CarCatalog.GetEnumerator(type))
+        else if (type == "1" || type == "2") foreach (Car car in CarCatalog.GetEnumerator(type))
             {
                 Console.WriteLine(car.ToString());
             }
+        else { Console.WriteLine("Ты почти нажал на нужную кнопку. Попробуй снова. Я верю - получится"); Main(); }
     }
 }
 public class CarCatalog
